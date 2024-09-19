@@ -35,8 +35,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 
-import com.allenliu.versionchecklib.v2.AllenVersionChecker;
-import com.allenliu.versionchecklib.v2.builder.UIData;
+//import com.allenliu.versionchecklib.v2.AllenVersionChecker;
+//import com.allenliu.versionchecklib.v2.builder.UIData;
 import com.printer.demo.global.GlobalContants;
 import com.printer.demo.utils.UpdateUtils;
 import com.printer.demo.utils.XTUtils;
@@ -262,7 +262,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             case R.id.ll_update:
                 //APP在线升级
                 if (GlobalContants.NEED_UPDATE == 1) {
-                    showUpdateDialog();
+//                    showUpdateDialog();
                 } else {
                     Toast.makeText(mContext, getString(R.string.current_app_version) + UpdateUtils.getVersionName(mContext), Toast.LENGTH_SHORT).show();
                 }
@@ -412,11 +412,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
      * 弹出升级对话框
      */
     protected void showUpdateDialog() {
-        AllenVersionChecker
-                .getInstance()
-                .downloadOnly(
-                        UIData.create().setTitle(getString(R.string.current_app_version) + UpdateUtils.getVersionName(mContext)).setContent(GlobalContants.description).setDownloadUrl(GlobalContants.apkurl)
-                )
-                .excuteMission(mContext);
+//        AllenVersionChecker
+//                .getInstance()
+//                .downloadOnly(
+//                        UIData.create().setTitle(getString(R.string.current_app_version) + UpdateUtils.getVersionName(mContext)).setContent(GlobalContants.description).setDownloadUrl(GlobalContants.apkurl)
+//                )
+//                .excuteMission(mContext);
     }
 }

@@ -70,7 +70,7 @@
     <string name="settingactivity_tspl_orderset">TSPL</string>
     <string name="settingactivity_gap">gap(mm):</string>
     <string name="settingactivity_gap_offset">gap offset(mm):</string>
-    <string name="settingactivity_speed">speed(inch/seconds):</string>
+    <string name="settingactivity_speed">speed(inch_seconds):</string>
     <string name="settingactivity_concentration">concentration:</string>
     <string name="settingactivity_label_offset">label offset(mm):</string>
     <string name="settingactivity_print_numbers">print numbers:</string>
@@ -125,10 +125,10 @@
     <string name="times">倍</string>
     <string name="bigger">放大</string>
     <string name="bigger1">倍效果演示abc123</string>
-    <string name="connecting">Connecting...</string>
-    <string name="please_wait">Please Wait...</string>
+    <string name="connecting">Connecting…</string>
+    <string name="please_wait">Please Wait…</string>
     <!-- DeviceListActivity -->
-    <string name="scanning">Scanning...</string>
+    <string name="scanning">Scanning…</string>
     <string name="select_device">Pleaase select the device to connect</string>
     <string name="none_paired">No Paired Device</string>
     <string name="has_paired">Already Paired</string>
@@ -142,7 +142,7 @@
     <string name="text_input">Please input content:</string>
     <string name="hex_close">Hex_Close</string>
     <string name="hex_open">Hex_Open</string>
-    <string name="content_to_print">Please input the text need to print...</string>
+    <string name="content_to_print">Please input the text need to print…</string>
     <string name="print_note">Show Example of Receipt</string>
     <string name="example_for_codepage_print">Show CodePage</string>
     <string name="company_name">打印机公司</string>
@@ -269,8 +269,8 @@
         <item>CP863 [Canadian-French]</item>
         <item>CP865 [Nordic]</item>
         <item>WCP1251 [Cyrillic]</item>
-        <item>CP866 Cyrilliec #2</item>
-        <item>MIK[Cyrillic /Bulgarian]</item>
+        <item>CP866 Cyrilliec 2</item>
+        <item>MIK[Cyrillic Bulgarian]</item>
         <item>CP755 [East Europe，Latvian 2]</item>
         <item>Iran</item>
         <item>reserve</item>
@@ -281,11 +281,11 @@
         <item>WCP1252 Latin I</item>
         <item>WCP1253 [Greek]</item>
         <item>CP852 [Latina 2]</item>
-        <item>CP858 Multilingual Latin Ⅰ+Euro)</item>
+        <item>CP858 Multilingual Latin Euro)</item>
         <item>Iran II</item>
         <item>Latvian</item>
         <item>CP864 [Arabic]</item>
-        <item>ISO-8859-1 [West Europe]</item>
+        <item>ISO–8859–1 [West Europe]</item>
         <item>CP737 [Greek]</item>
         <item>WCP1257 [Baltic]</item>
         <item>Thai</item>
@@ -298,15 +298,15 @@
         <item>WCP1255[Hebrew]</item>
         <item>WCP1256[Arabic]</item>
         <item>WCP1258[Vietnam]</item>
-        <item>ISO-8859-2[Latin 2]</item>
-        <item>ISO-8859-3[Latin 3]</item>
-        <item>ISO-8859-4[Baltic]</item>
-        <item>ISO-8859-5[Cyrillic]</item>
-        <item>ISO-8859-6[Arabic]</item>
-        <item>ISO-8859-7[Greek]</item>
-        <item>ISO-8859-8[Hebrew]</item>
-        <item>ISO-8859-9[Turkish]</item>
-        <item>ISO-8859-15 [Latin 3]</item>
+        <item>ISO–8859–2[Latin 2]</item>
+        <item>ISO–8859–3[Latin 3]</item>
+        <item>ISO–8859–4[Baltic]</item>
+        <item>ISO–8859–5[Cyrillic]</item>
+        <item>ISO–8859–6[Arabic]</item>
+        <item>ISO–8859–7[Greek]</item>
+        <item>ISO–8859–8[Hebrew]</item>
+        <item>ISO–8859–9[Turkish]</item>
+        <item>ISO–8859–15 [Latin 3]</item>
         <item>Thai2</item>
         <item>CP856</item>
         <item>全选</item>

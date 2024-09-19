@@ -23,8 +23,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 
-import com.allenliu.versionchecklib.v2.AllenVersionChecker;
-import com.allenliu.versionchecklib.v2.builder.UIData;
+//import com.allenliu.versionchecklib.v2.AllenVersionChecker;
+//import com.allenliu.versionchecklib.v2.builder.UIData;
 import com.printer.demo.BarcoePrintActivity;
 import com.printer.demo.BaseActivity;
 import com.printer.demo.CollectPrintActivity;
@@ -383,11 +383,11 @@ public class MainActivity22 extends BaseActivity implements View.OnClickListener
      * 弹出升级对话框
      */
     protected void showUpdateDialog() {
-        AllenVersionChecker
-                .getInstance()
-                .downloadOnly(
-                        UIData.create().setTitle(getString(R.string.new_version)).setContent(GlobalContants.description).setDownloadUrl(GlobalContants.apkurl)
-                )
-                .excuteMission(mContext);
+//        AllenVersionChecker
+//                .getInstance()
+//                .downloadOnly(
+//                        UIData.create().setTitle(getString(R.string.new_version)).setContent(GlobalContants.description).setDownloadUrl(GlobalContants.apkurl)
+//                )
+//                .excuteMission(mContext);
     }
 }

@@ -121,10 +121,10 @@
     <string name="times">倍</string>
     <string name="bigger">放大</string>
     <string name="bigger1">倍數演示效果abc123</string>
-    <string name="connecting">連接中...</string>
-    <string name="please_wait">請等待...</string>
+    <string name="connecting">連接中…</string>
+    <string name="please_wait">請等待…</string>
     <!-- DeviceListActivity -->
-    <string name="scanning">掃描設備中...</string>
+    <string name="scanning">掃描設備中…</string>
     <string name="select_device">請選擇要連接的設備</string>
     <string name="none_paired">沒有匹配的設備</string>
     <string name="has_paired">已配對</string>
@@ -277,11 +277,11 @@
         <item>WCP1252 Latin I</item>
         <item>WCP1253 [Greek]</item>
         <item>CP852 [Latina 2]</item>
-        <item>CP858 Multilingual Latin Ⅰ+Euro)</item>
+        <item>CP858 Multilingual Latin Euro)</item>
         <item>Iran II</item>
         <item>Latvian</item>
         <item>CP864 [Arabic]</item>
-        <item>ISO-8859-1 [West Europe]</item>
+        <item>ISO–8859–1 [West Europe]</item>
         <item>CP737 [Greek]</item>
         <item>WCP1257 [Baltic]</item>
         <item>Thai</item>
@@ -294,15 +294,15 @@
         <item>WCP1255[Hebrew]</item>
         <item>WCP1256[Arabic]</item>
         <item>WCP1258[Vietnam]</item>
-        <item>ISO-8859-2[Latin 2]</item>
-        <item>ISO-8859-3[Latin 3]</item>
-        <item>ISO-8859-4[Baltic]</item>
-        <item>ISO-8859-5[Cyrillic]</item>
-        <item>ISO-8859-6[Arabic]</item>
-        <item>ISO-8859-7[Greek]</item>
-        <item>ISO-8859-8[Hebrew]</item>
-        <item>ISO-8859-9[Turkish]</item>
-        <item>ISO-8859-15 [Latin 3]</item>
+        <item>ISO–8859–2[Latin 2]</item>
+        <item>ISO–8859–3[Latin 3]</item>
+        <item>ISO–8859–4[Baltic]</item>
+        <item>ISO–8859–5[Cyrillic]</item>
+        <item>ISO–8859–6[Arabic]</item>
+        <item>ISO–8859–7[Greek]</item>
+        <item>ISO–8859–8[Hebrew]</item>
+        <item>ISO–8859–9[Turkish]</item>
+        <item>ISO–8859–15 [Latin 3]</item>
         <item>Thai2</item>
         <item>CP856</item>
         <item>全選</item>
@@ -333,7 +333,6 @@
     <string name="headview_PdfPrint">PDF</string>
     <string name="headview_BarcodePrint">條碼</string>
     <string name="headview_PicturePrint">圖片</string>
-    <string name="headview_PictureCollect">採集</string>
     <!-- headView -->
     <string name="on_line">已連接</string>
     <string name="off_line">未連接</string>
@@ -345,7 +344,6 @@
     <string name="about">關於</string>
     <string name="notroot">該設備很可能沒有root權限，操作串口需要root權限</string>
 
-    <string name="请选择PDF文件">choose the PDF file</string>
     <string name="start_checkupdate_has_new_version">有新版本，请更新!</string>
     <string name="start_checkupdate_url_error">URL错误</string>
     <string name="start_checkupdate_net_error">可联网检测APP更新</string>
