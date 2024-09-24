@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<data>-->
+
+        <!--<variable-->
+            <!--name="data"-->
+            <!--type="com.jgw.common_library.bean.WebViewTitleBean" />-->
+    <!--</data>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_ee"
+        tools:ignore="RtlHardcoded,RtlSymmetry,SpUsage"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/layout_toolbar"
+            layout="@layout/layout_toolbar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="12dp"
+            android:text="@string/bluetooth_des"
+            android:textColor="#858587"
+            android:paddingBottom="15dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_marginBottom="15dp"
+            android:layout_height="88dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/connect_device"
+                android:textColor="#666666"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_connection_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="14dp"
+                tools:text="设备名"
+                android:textColor="@color/main_color"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_test_print_cpcl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="测试CPCL打印"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/gray_33"/>
+
+        <TextView
+            android:id="@+id/tv_test_print_tspl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="测试TSPL打印"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/gray_33"/>
+
+        <TextView
+            android:id="@+id/tv_test_print_check"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="检查打印机状态"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/gray_33"/>
+
+        <TextView
+            android:id="@+id/tv_test_print_bitmap"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="打印图片"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/gray_33"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/unconnect_device"
+            android:background="@color/white"
+            android:textColor="@color/gray_66"
+            android:textSize="16sp"
+            android:layout_height="40dp" />
+
+        <com.jgw.common_library.base.view.CustomRecyclerViewContainer
+            android:id="@+id/rvc_bluetooth_connection"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.jgw.common_library.base.view.CustomBaseRecyclerView
+                android:id="@+id/rv_bluetooth_connection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" />
+
+        </com.jgw.common_library.base.view.CustomRecyclerViewContainer>
+    </LinearLayout>
+</layout>

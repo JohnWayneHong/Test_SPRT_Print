@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.jgw.print_usb_connect.bean.UsbPrintInfoBean" />
+    </data>
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/ll_usb_info_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/tv_bluetooth_info_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/gray_33"
+                android:textSize="16sp"
+                android:text="@{data.productName}"
+                tools:text="USB设备名" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/tv_bluetooth_info_item_name"
+                android:background="@color/gray_ee"/>
+
+            <TextView
+                android:id="@+id/tv_bluetooth_info_item_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/tv_bluetooth_info_item_name"
+                android:textColor="@color/gray_33"
+                android:textSize="16sp"
+                android:text="@{data.deviceName}"
+                tools:text="USB设备地址" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/tv_bluetooth_info_item_device"
+                android:background="@color/gray_ee"/>
+
+            <TextView
+                android:id="@+id/tv_bluetooth_info_item_vpId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/tv_bluetooth_info_item_device"
+                android:textColor="@color/gray_33"
+                android:textSize="16sp"
+                android:text="@{data.vendorIdAndProductId}"
+                tools:text="USB设备地址" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>
+

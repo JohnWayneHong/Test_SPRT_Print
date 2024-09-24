@@ -5,4 +5,8 @@
       <color name="viewfinder_mask">#60000000</color>
       <color name="possible_result_points">#c0ffff00</color>
       <color name="snow">#FFFAFA</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#26A2FF</color>
 </resources>

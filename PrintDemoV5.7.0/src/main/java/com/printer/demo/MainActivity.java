@@ -37,6 +37,7 @@ import androidx.core.app.ActivityCompat;
 
 //import com.allenliu.versionchecklib.v2.AllenVersionChecker;
 //import com.allenliu.versionchecklib.v2.builder.UIData;
+import com.jgw.print_usb_connect.UsbPrintSettingActivity;
 import com.printer.demo.global.GlobalContants;
 import com.printer.demo.utils.UpdateUtils;
 import com.printer.demo.utils.XTUtils;
@@ -212,9 +213,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ll_setting:
-                Intent intent = new Intent(MainActivity.this, SettingActivity.class);
+//                Intent intent = new Intent(MainActivity.this, SettingActivity.class);
+                UsbPrintSettingActivity.start(this,1);
                 // intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-                startActivity(intent);
+//                startActivity(intent);
 //                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 //                List<InputMethodInfo> mInputMethodProperties = imm.getInputMethodList();
 //                for (int i = 0; i < mInputMethodProperties.size(); i++) {

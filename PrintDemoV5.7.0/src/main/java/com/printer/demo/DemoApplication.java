@@ -3,6 +3,7 @@ package com.printer.demo;
 import android.util.Log;
 
 import com.android.print.demo.loghelper.LogcatHelper;
+import com.jgw.common_library.base.CustomApplication;
 import com.printer.demo.global.GlobalContants;
 import com.printer.demo.utils.PrefUtils;
 import com.printer.sdk.application.MyApplication;
@@ -14,7 +15,7 @@ import com.printer.sdk.application.MyApplication;
  *               锟斤拷锟斤拷要锟斤拷锟藉单锟侥硷拷application锟斤拷锟斤拷锟斤拷
  * @date 2015-3-29 锟斤拷锟斤拷4:14:17
  */
-public class DemoApplication extends MyApplication {
+public class DemoApplication extends CustomApplication {
 
 	private static final String TAG = "DemoApplication";
 	private static boolean isConnected;

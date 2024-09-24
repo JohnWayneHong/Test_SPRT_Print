@@ -36,7 +36,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar"
+        android:theme="@style/BaseAppTheme"
         tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity"
         tools:replace="android:name,android:label">
         <activity
@@ -66,6 +66,10 @@
             android:name=".UsbDeviceList"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.jgw.print_usb_connect.UsbPrintSettingActivity"
+            android:windowSoftInputMode="stateHidden" />
+
         <activity
             android:name=".MipcaActivityCapture"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize"

@@ -365,6 +365,11 @@
     <string name="printer_type">Printer type</string>
     <string name="printer_normal">Normal Pinter</string>
     <string name="printer_t7">T7 Printer</string>
+
+    <string name="bluetooth_des">操作说明 \n1.打开手机蓝牙返回本页面 \n2.点击页面右上角“搜索设备”搜索蓝牙打印机 \n3.点击“未连接设备”中要连接的打印机，即完成连接</string>
+    <string name="connect_device">已连接设备</string>
+    <string name="unconnect_device">未连接设备</string>
+    <string name="empty_data">暂无数据</string>
 </resources>
 
 
